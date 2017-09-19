@@ -1,0 +1,10 @@
+from math import exp,log,sqrt
+import re
+from datetime import date, time,datetime,timedelta
+today = date.today()
+print("output:today:{0!s}".format(today))
+print("output:{0!s}".format(today.year))
+print("output:{0!s}".format(today.month))
+print("output:{0!s}".format(today.day))
+current_datetime = datetime.today()
+print("output:{0!s}".format(current_datetime))
