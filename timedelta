@@ -1,0 +1,8 @@
+one_day = timedelta(days=-1)
+yesterday = today + one_day
+print("output:yesterday:{0!s}".format(yesterday))
+eight_hours = timedelta(hours=-8)
+print("output:{0!s} {1!s}".format(eight_hours.days,eight_hours.seconds))
+
+output:yesterday:2017-09-18
+output:-1 57600
