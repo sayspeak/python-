@@ -19,4 +19,4 @@ output:another_list also has 3 elements.
 output:5 is in another_list 1 time.
 
 
-注：print中，output:{0}中的0是代表第一个位置，不能为空，与教材中实例不符。。。
+
